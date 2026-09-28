@@ -1,0 +1,22 @@
+title: "[Idea] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        큰 프로젝트 아이디어를 올려주세요. 관심 있으면 👍, 사람이 모이면 repo 만들고 시작해요.
+  - type: input
+    id: oneliner
+    attributes:
+      label: 한 줄 요약
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: 뭘 만드는지
+    validations:
+      required: true
+  - type: textarea
+    id: roles
+    attributes:
+      label: 필요한 역할 (있으면)
